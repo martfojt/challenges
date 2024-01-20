@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'WorkSans';
+  src: url('./assets/fonts/WorkSans-VariableFont_wght.ttf')
+    format('truetype');
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+h2 {
+  font-family: 'WorkSans';
+}
+
+p {
+  font-family: 'WorkSans';
+}
+
+.main-faq{
+width: 600px;
+background-color: white;
+}
