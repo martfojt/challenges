@@ -3,25 +3,38 @@
   src: url('./assets/fonts/WorkSans-VariableFont_wght.ttf')
     format('truetype');
 }
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+h3 {
+  font-family: 'WorkSans';
+  font-weight: bold;
 }
 
-h2 {
-  font-family: 'WorkSans';
+h3:hover{
+color:blueviolet;
+cursor: pointer;
 }
 
 p {
   font-family: 'WorkSans';
+  display: none;
 }
 
-.main-faq{
+.main-faq-background{
 width: 600px;
+height: auto;
 background-color: white;
+position: absolute;
+margin: auto;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+border-radius: 3%;
+padding: 0px 30px 0px 30px;
+}
+
+.main-faq-text{
+  padding: 0px 30px 0px 30px;
 }
 
 .background-image{
@@ -30,6 +43,7 @@ background-color: white;
   background-image: url('./assets/images/background-pattern-desktop.svg');
   background-size: cover;
   background-repeat: no-repeat;
+z-index: -1;
 }
 
 body{
