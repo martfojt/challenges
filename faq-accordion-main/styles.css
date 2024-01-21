@@ -7,8 +7,14 @@
 h3 {
   font-family: 'WorkSans';
   font-weight: bold;
+  display: flex;
+  justify-content: space-between;
 }
 
+
+hr{
+  margin: 0;
+}
 h3:hover{
 color:blueviolet;
 cursor: pointer;
@@ -21,7 +27,7 @@ p {
 
 .main-faq-background{
 width: 600px;
-height: auto;
+max-height: fit-content;
 background-color: white;
 position: absolute;
 margin: auto;
@@ -30,8 +36,10 @@ left: 0;
 right: 0;
 bottom: 0;
 border-radius: 3%;
-padding: 0px 30px 0px 30px;
+padding: 0px 20px 0px 20px;
+box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
 }
+
 
 .main-faq-text{
   padding: 0px 30px 0px 30px;
